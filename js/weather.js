@@ -15,7 +15,6 @@ class Weather {
         `&extra=true`,
       {
         // не работает без плагина разбираться надо с CORS
-        // решил проблему при помощи плагина который моделирует запрос OPTIONS
 
         headers: {
           // "Access-Control-Allow-Origin" : "*",
